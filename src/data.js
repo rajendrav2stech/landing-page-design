@@ -86,7 +86,8 @@ export const data = {
                                         dataPeriod: '2000',
                                         dataType: [
                                             "[Seriously.",
-                                            "Creative.]"
+                                            "Creative.]",
+                                            "Lover.]"
                                         ],
                                         span: {
                                             className: 'wrap'
