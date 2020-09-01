@@ -25,6 +25,7 @@ class AllFeature extends React.Component {
                                                                             colItem.colList.banner.box.map((boxItem, box) => {
                                                                                 return (
                                                                                     <div className={boxItem.boxList.className} key={box} data-aos={boxItem.boxList.dtaAos} data-aos-offset={boxItem.boxList.dataAosOffset} data-aos-easing={boxItem.boxList.dataAosEasing}>
+                                                                                        {boxItem.boxList.img ? <img src={boxItem.boxList.img.url} alt={boxItem.boxList.img.alt} />:null}
                                                                                     </div>
                                                                                 )
                                                                             })

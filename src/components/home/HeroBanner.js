@@ -72,8 +72,8 @@ class HeroBanner extends React.Component {
                                 <div className={heroBanenr[0].parentWrapper.container.row.className}>
                                     <div className={heroBanenr[0].parentWrapper.container.row.col.className}>
                                         <div className={heroBanenr[0].parentWrapper.container.row.col.content.className}>
-                                            <h1>Amazing Mobile <br />App. <a href="/" className="typewrite" data-period="2000"
-                                                data-type='[ "Seriously.", "Creative."]'>
+                                            <h1>Real time water  <br />Consumption <a href="/" className="typewrite" data-period="2000"
+                                                data-type='[ "tracking", "tracking"]'>
                                                 <span className="wrap"></span> </a>
                                             </h1>
                                             <p>{heroBanenr[0].parentWrapper.container.row.col.content.para.value}</p>

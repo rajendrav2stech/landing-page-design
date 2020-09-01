@@ -97,7 +97,7 @@ body{
   left: 0;
   right: 0;
   color: #ffffff;
-  background: #37c878;
+  background: #7e9edd;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transform-origin: 50%;
@@ -169,8 +169,8 @@ body{
 
 .amazing_mobile .hero_section_1 .contnet h1 {
   color: #222129;
-  font-size: 67px;
-  line-height: 72px;
+  font-size: 54px;
+  line-height: 64px;
   margin-bottom: 30px;
 }
 
@@ -221,7 +221,8 @@ body{
   background-color: #ffffff;
   position: relative;
   border-radius: 10px;
-  padding: 40px 20px 45px 20px;
+  padding: 40px 30px 40px 30px;
+  max-width: 640px;
 }
 
 .amazing_mobile .hero_section_2 .container h4 {
@@ -304,8 +305,14 @@ body{
   position: relative;
   border-radius: 10px;
   height: 560px;
+  overflow: hidden;
 }
-
+.amazing_mobile .hero_section_4 .banner1 .s1 img,
+.amazing_mobile .hero_section_4 .banner1 .s2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .amazing_mobile .hero_section_4 .banner1 .s2 {
   max-width: 275px;
   width: 100%;
@@ -319,6 +326,7 @@ body{
   position: absolute;
   right: 30px;
   top: 30px;
+  overflow: hidden;
 }
 
 .amazing_mobile .hero_section_4 .banner1 .s3 {
@@ -330,10 +338,12 @@ body{
   background-color: #ffffff;
   position: relative;
   border-radius: 10px;
-  height: 230px;
+  /* height: 230px; */
+  height: 170px;
   position: absolute;
   right: 30px;
   bottom: -30px;
+  overflow: hidden;
 }
 
 .amazing_mobile .hero_section_4 .content {
@@ -478,5 +488,19 @@ body{
   max-width: 600px;
   width: 100%;
   line-height: 23px;
+}
+.amazing_mobile .social_media {
+   text-align: center;
+   margin-top: 160px;
+}
+.amazing_mobile .social_media .logo {
+  margin-bottom: 25px;
+}
+.amazing_mobile .social_media ul {
+  align-items: center;
+  justify-content: center;
+}
+.amazing_mobile .social_media ul li{
+  margin: 0 7px;
 }
 /*# sourceMappingURL=style.css.map */

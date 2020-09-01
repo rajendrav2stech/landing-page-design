@@ -1,5 +1,10 @@
 import React from 'react'
 import { data } from '../../data'
+import logo from '../../assets/images/logo.png'
+import faceBook from "../../assets/images/faceBook.png"
+import twitter from "../../assets/images/twitter.png"
+import insta from  "../../assets/images/insta.png"
+
 class Footer extends React.Component {
     render() {
         let footer = data.footer.filter(item => {
@@ -21,10 +26,18 @@ class Footer extends React.Component {
                                                 <div className={footer[0].parentWrapper.container.row.col.content.rel.className}>
                                                     <img src={footer[0].parentWrapper.container.row.col.content.rel.ima.url} alt={footer[0].parentWrapper.container.row.col.content.rel.ima.alt} />
                                                     <input type={footer[0].parentWrapper.container.row.col.content.rel.input.type} placeholder={footer[0].parentWrapper.container.row.col.content.rel.input.placeholder} />
-                                                    
+
                                                 </div>
                                                 <a href={footer[0].parentWrapper.container.row.col.content.link.to} className={footer[0].parentWrapper.container.row.col.content.link.className}>{footer[0].parentWrapper.container.row.col.content.link.value}</a>
                                             </form>
+                                            <div className="social_media text-center">
+                                                <a href="#/"><img src={logo} alt="logo" className="logo" /></a>
+                                                <ul className="d-flex item-center">
+                                                    <li> <a href="#/"><img src={faceBook} alt="logo" /></a></li>
+                                                    <li> <a href="#/"><img src={twitter} alt="logo" /></a></li>
+                                                    <li> <a href="#/"><img src={insta} alt="logo" /></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

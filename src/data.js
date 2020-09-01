@@ -6,6 +6,12 @@ import amazingMobileicon2 from "../src/assets/images/icon-2.png"
 import amazingMobileicon3 from "../src/assets/images/icon-3.png"
 import amazingMobifooterBg from "../src/assets/images/footer-bg.png"
 import amazingMobilemail from "../src/assets/images/mail.png"
+import Mobil1 from "../src/assets/images/mobile1.png"
+import Mobil2 from "../src/assets/images/mobile2.png"
+import Mobil3 from "../src/assets/images/mobile3.png"
+import apple from "../src/assets/images/apple.png"
+import google from "../src/assets/images/google.png"
+import windows from "../src/assets/images/windows.png"
 
 export const data = {
     header: [
@@ -79,7 +85,7 @@ export const data = {
                             content: {
                                 className: 'contnet',
                                 heading1: {
-                                    value: 'Amazing Mobile ',
+                                    value: 'Real time water',
                                     anchor: {
                                         url: '/',
                                         className: 'typewrite',
@@ -95,7 +101,7 @@ export const data = {
                                     },
                                 },
                                 para: {
-                                    value: "We build this app because we wanted to help people. That’s what every app in the universe should do: make people’s life easier."
+                                    value: "We build this app because we wanted to help poeple  make a better choice for environment. Monitor your water consumption in real-time."
                                 },
                                 anchor: {
                                     className: 'hvr-shutter-in-horizontal',
@@ -129,7 +135,7 @@ export const data = {
                             className: 'col-md-12 col-sm-12',
                             headingh4: {
                                 className: 'text-center',
-                                value: 'The most important clients we had so far.',
+                                value: 'Now available for download across.',
                             },
                             ul: {
                                 className: 'clearfix d-flex justify-content-center align-items-center',
@@ -137,7 +143,7 @@ export const data = {
                                     {
                                         li: {
                                             img: {
-                                                url: amazingMobileLogo,
+                                                url: google,
                                                 alt: 'Client Logo',
                                             }
                                         }
@@ -145,7 +151,7 @@ export const data = {
                                     {
                                         li: {
                                             img: {
-                                                url: amazingMobileLogo,
+                                                url: apple,
                                                 alt: 'Client Logo',
                                             }
                                         }
@@ -153,35 +159,11 @@ export const data = {
                                     {
                                         li: {
                                             img: {
-                                                url: amazingMobileLogo,
+                                                url: windows,
                                                 alt: 'Client Logo',
                                             }
                                         }
                                     },
-                                    {
-                                        li: {
-                                            img: {
-                                                url: amazingMobileLogo,
-                                                alt: 'Client Logo',
-                                            }
-                                        }
-                                    },
-                                    {
-                                        li: {
-                                            img: {
-                                                url: amazingMobileLogo,
-                                                alt: 'Client Logo',
-                                            }
-                                        }
-                                    },
-                                    {
-                                        li: {
-                                            img: {
-                                                url: amazingMobileLogo,
-                                                alt: 'Client Logo',
-                                            }
-                                        }
-                                    }
                                 ]
                             }
                         }
@@ -226,10 +208,10 @@ export const data = {
                                             }
                                         },
                                         headingh4: {
-                                            value: 'Easily connect to desktop',
+                                            value: 'Real time monitoring',
                                         },
                                         para: {
-                                            value: 'We build this app because we wanted to help people. That’s what every app should do, right?'
+                                            value: 'Get real-time monotoring of your water system from source to tap. Track spikes in consumption or leakages.'
                                         }
                                     }
                                 }
@@ -249,10 +231,10 @@ export const data = {
                                             }
                                         },
                                         headingh4: {
-                                            value: 'Shows you charts and pies',
+                                            value: 'Historical statistics',
                                         },
                                         para: {
-                                            value: 'I drew a pie with my favorite chart and a chart that describes my favorite pies.'
+                                            value: 'Get historical statistics and your usaage pattern. Make smart choices to save water during peak hours.'
                                         }
                                     }
                                 }
@@ -272,10 +254,10 @@ export const data = {
                                             }
                                         },
                                         headingh4: {
-                                            value: 'Brings you revenue',
+                                            value: 'Save on bills',
                                         },
                                         para: {
-                                            value: 'An app that makes you money: isn’t that a dream of a business model?'
+                                            value: 'Easily tack your bills with forecast. Get accurate consumption data to track savings.'
                                         }
                                     }
                                 }
@@ -307,23 +289,35 @@ export const data = {
                                                     box: [
                                                         {
                                                             boxList: {
-                                                                className: 's1'
+                                                                className: 's1',
+                                                                img: {
+                                                                    url: Mobil1,
+                                                                    alt: "Mobile"
+                                                                }
                                                             }
                                                         },
-                                                        {
-                                                            boxList: {
-                                                                className: 's2',
-                                                                dtaAos: 'flip-up',
-                                                                dataAosOffset: '100',
-                                                                dataAosEasing: 'ease-in-sine',
-                                                            }
-                                                        },
+                                                        // {
+                                                        //     boxList: {
+                                                        //         className: 's2',
+                                                        //         dtaAos: 'flip-up',
+                                                        //         dataAosOffset: '100',
+                                                        //         dataAosEasing: 'ease-in-sine',
+                                                        //         img: {
+                                                        //             url: Mobil2,
+                                                        //             alt: "Mobile"
+                                                        //         }
+                                                        //     }
+                                                        // },
                                                         {
                                                             boxList: {
                                                                 className: 's3',
                                                                 dtaAos: 'flip-left',
                                                                 dataAosOffset: '200',
                                                                 dataAosEasing: 'ease-in-sine',
+                                                                img: {
+                                                                    url: Mobil2,
+                                                                    alt: "Mobile"
+                                                                }
                                                             }
                                                         }
                                                     ]
@@ -342,32 +336,32 @@ export const data = {
                                                             url: amazingMobileline1,
                                                             alt: 'line',
                                                         },
-                                                        value: 'Great Feature',
+                                                        value: 'Get Historical Statistics',
                                                     },
                                                     para: {
                                                         dataAos: 'fade-left',
-                                                        value: 'There are many variation passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.'
+                                                        value: 'Log your daily water consumption and track to generate usage pattern. Get in-depth reports with drill-down for hourly records. Helps you pin-point any consumption spikes.'
                                                     },
                                                     ul: [
                                                         {
                                                             list: {
                                                                 dataAos: 'fade-left',
                                                                 dataAosDuration: '500',
-                                                                value: 'Important aspect that should be mentioned.'
+                                                                value: 'Track daily and hourly consumption'
                                                             }
                                                         },
                                                         {
                                                             list: {
                                                                 dataAos: 'fade-left',
                                                                 dataAosDuration: '600',
-                                                                value: 'Another list item that describes something cool.'
+                                                                value: 'Get exact consumption charges'
                                                             }
                                                         },
                                                         {
                                                             list: {
                                                                 dataAos: 'fade-left',
                                                                 dataAosDuration: '700',
-                                                                value: 'Last list item or something'
+                                                                value: 'Custom filters for data'
                                                             }
                                                         }
                                                     ]
@@ -395,17 +389,21 @@ export const data = {
                                                     box: [
                                                         {
                                                             boxList: {
-                                                                className: 's1'
+                                                                className: 's1',
+                                                                img: {
+                                                                    url: Mobil3,
+                                                                    alt: "Mobile"
+                                                                }
                                                             }
                                                         },
-                                                        {
-                                                            boxList: {
-                                                                className: 's2',
-                                                                dtaAos: 'zoom-in',
-                                                                dataAosOffset: '100',
-                                                                dataAosEasing: 'ease-in-sine',
-                                                            }
-                                                        }
+                                                        // {
+                                                        //     boxList: {
+                                                        //         className: 's2',
+                                                        //         dtaAos: 'zoom-in',
+                                                        //         dataAosOffset: '100',
+                                                        //         dataAosEasing: 'ease-in-sine',
+                                                        //     }
+                                                        // }
                                                     ]
                                                 }
                                             }
@@ -422,11 +420,11 @@ export const data = {
                                                             url: amazingMobileline1,
                                                             alt: 'line',
                                                         },
-                                                        value: 'Another Cool Feature',
+                                                        value: 'At a glimpse',
                                                     },
                                                     para: {
                                                         dataAos: 'fade-left',
-                                                        value: 'There are many variation passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.'
+                                                        value: 'Get your monthly consumption and forecast at a glimpse. Easy to read dashboard helps you monitor progress. Get alerts for leakages and spikes in consumption. '
                                                     }
                                                 }
                                             }
@@ -436,63 +434,63 @@ export const data = {
                             }
                         }
                     },
-                    {
-                        listSec: {
-                            className: 'hero_section_4 even',
-                            container: {
-                                className: 'container',
-                                row: {
-                                    className: 'row',
-                                    col: [
-                                        {
-                                            colList: {
-                                                className: 'col-md-6 col-sm-6',
-                                                banner: {
-                                                    className: 'banner1',
-                                                    box: [
-                                                        {
-                                                            boxList: {
-                                                                className: 's1'
-                                                            }
-                                                        },
-                                                        {
-                                                            boxList: {
-                                                                className: 's2',
-                                                                dtaAos: 'fade-right',
-                                                                dataAosOffset: '100',
-                                                                dataAosEasing: 'ease-in-sine',
-                                                            }
-                                                        }
-                                                    ]
-                                                }
-                                            }
-                                        },
-                                        {
-                                            colList: {
-                                                className: 'col-md-6 col-sm-6',
-                                                banner: {
-                                                    className: 'content p_20',
-                                                    heading2: {
-                                                        className: 'text-left',
-                                                        dataAos: 'fade-left',
-                                                        img: {
-                                                            url: amazingMobileline1,
-                                                            alt: 'line',
-                                                        },
-                                                        value: 'Awesome Feature',
-                                                    },
-                                                    para: {
-                                                        dataAos: 'fade-left',
-                                                        value: 'There are many variation passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.'
-                                                    }
-                                                }
-                                            }
-                                        },
-                                    ]
-                                }
-                            }
-                        }
-                    },
+                    // {
+                    //     listSec: {
+                    //         className: 'hero_section_4 even',
+                    //         container: {
+                    //             className: 'container',
+                    //             row: {
+                    //                 className: 'row',
+                    //                 col: [
+                    //                     {
+                    //                         colList: {
+                    //                             className: 'col-md-6 col-sm-6',
+                    //                             banner: {
+                    //                                 className: 'banner1',
+                    //                                 box: [
+                    //                                     {
+                    //                                         boxList: {
+                    //                                             className: 's1'
+                    //                                         }
+                    //                                     },
+                    //                                     {
+                    //                                         boxList: {
+                    //                                             className: 's2',
+                    //                                             dtaAos: 'fade-right',
+                    //                                             dataAosOffset: '100',
+                    //                                             dataAosEasing: 'ease-in-sine',
+                    //                                         }
+                    //                                     }
+                    //                                 ]
+                    //                             }
+                    //                         }
+                    //                     },
+                    //                     {
+                    //                         colList: {
+                    //                             className: 'col-md-6 col-sm-6',
+                    //                             banner: {
+                    //                                 className: 'content p_20',
+                    //                                 heading2: {
+                    //                                     className: 'text-left',
+                    //                                     dataAos: 'fade-left',
+                    //                                     img: {
+                    //                                         url: amazingMobileline1,
+                    //                                         alt: 'line',
+                    //                                     },
+                    //                                     value: 'Awesome Feature',
+                    //                                 },
+                    //                                 para: {
+                    //                                     dataAos: 'fade-left',
+                    //                                     value: 'There are many variation passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.'
+                    //                                 }
+                    //                             }
+                    //                         }
+                    //                     },
+                    //                 ]
+                    //             }
+                    //         }
+                    //     }
+                    // },
                 ]
             }
         }
@@ -518,7 +516,7 @@ export const data = {
                                 heading3: {
                                     dataAos: 'fade-up',
                                     dataAosAnchorPlacement: 'top-bottom',
-                                    value: 'We built this app to help people. Join 100,000 users who already have SuperApp installed.'
+                                    value: 'We built this app to help save water. Join us in our endeavour to save our precious natural resources.'
                                 },
                                 rel: {
                                     className: 'rel',
