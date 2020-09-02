@@ -135,7 +135,7 @@ export const data = {
                             className: 'col-md-12 col-sm-12',
                             headingh4: {
                                 className: 'text-center',
-                                value: 'Now available for download across.',
+                                value: 'Now available for download across',
                             },
                             ul: {
                                 className: 'clearfix d-flex justify-content-center align-items-center',
@@ -185,7 +185,7 @@ export const data = {
                             className: 'col-md-12 col-sm-12 text-center',
                             heading2: {
                                 className: 'text-center',
-                                value: 'How SuperApp Can Help You',
+                                value: 'How Infinite Water can help you',
                                 img: {
                                     url: amazingMobileline1,
                                     alt: 'line',
@@ -533,7 +533,7 @@ export const data = {
                                 link: {
                                     to: '#/',
                                     className: 'hvr-shutter-in-horizontal',
-                                    value: 'Join SuperApp',
+                                    value: 'Get Download Link',
                                 }
                             }
                         }
