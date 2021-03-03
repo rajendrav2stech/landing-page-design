@@ -114,7 +114,7 @@ export const data = {
                             className: 'mobile_img',
                             img: {
                                 url: heroamzingMobile,
-                                alt: 'Hero Mobile',
+                                alt: 'Hero Image',
                             }
                         }
                     }
@@ -516,7 +516,7 @@ export const data = {
                                 heading3: {
                                     dataAos: 'fade-up',
                                     dataAosAnchorPlacement: 'top-bottom',
-                                    value: 'We built this app to help save water. Join us in our endeavour to save our precious natural resources.'
+                                    value: 'We have built this app to help you save water. Join us in our endeavour to save our precious natural resources.'
                                 },
                                 rel: {
                                     className: 'rel',
